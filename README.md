@@ -8,6 +8,7 @@
 ![Web Developer Roadmap Introduction](./img/intro.png)
 
 ## Frontend
+[![](https://img.shields.io/badge/-%20PDF%20Yüklə-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://maharramoff.github.io/yol/static/frontend.pdf)
 
 ![Frontend Roadmap](./img/frontend.png?year-2020-1)
 
