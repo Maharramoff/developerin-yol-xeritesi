@@ -1,0 +1,65 @@
+---
+last_modified_at: "2019-05-12"
+---
+
+<div class="container">
+    <div class="row page-header">
+        <h1>Roadmaps for Developers <img src="{{ "/assets/img/spark.svg" | prpend:sid.baseurl }}"></h1>
+        <p>Roadmaps, articles and resources to help you choose your path, learn and improve</p>
+    </div>
+    <div class="row roadmaps-list">
+        {% for post in site.posts %}
+        {% if post.categories contains "roadmaps" and post.featured == true %}
+        {% include roadmap.html roadmap=post %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% include subscribe.html %}
+
+<div class="feats-list">
+    <div class="container">
+        <div class="feat-row">
+            <img src="{{ "/assets/img/anxiety.gif" | prepend:site.url }}" class="" alt="">
+            <div class="feat-content">
+                <h2>It can be daunting</h2>
+                <p>Tech is changing fast. The way we do things today is completely different from how we used to do
+                    them a couple of years ago. With so much going on in the tech these days, it can be daunting for
+                    anyone beginning their career or even already in this field.</p>
+            </div>
+        </div>
+        <div class="feat-row right-feat">
+            <img src="{{ "/assets/img/shy.gif" | prepend:site.url }}" class="top-img d-none" alt="">
+            <div class="feat-content feat-right">
+                <h2>Know what you don't know</h2>
+                <p>Knowing what you don't know is half the battle; this would help you steer your efforts in the
+                    right direction. These developer roadmaps help you in finding out the missing links, identify
+                    the loopholes in your knowledge and start improving – whether it is frontend, backend or
+                    devops.</p>
+            </div>
+            <img src="{{ "/assets/img/shy.gif" | prepend:site.url }}" class="right-img" alt="">
+        </div>
+        <div class="feat-row">
+            <img src="{{ "/assets/img/blanket.gif" | prepend:site.url }}" alt="">
+            <div class="feat-content">
+                <h2>Stop worrying, start learning</h2>
+                <p>No one got where they are in one day, it needs time and practice. Let your established ideals not
+                    put you off, they got to that point with practice; you have to start somewhere. Pick a path,
+                    identify what you need to know and start improving yourself.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="sponsors-list shadow-sm border dark-bg">
+    <div class="container">
+        <div class="container-head">
+            <h4>Become a Sponsor</h4>
+            <p>Please reach out to us to sponsor our efforts in helping the community</p>
+        </div>
+        <div class="home-sponsor-blocks">
+            {% include sponsor-blocks.html %}
+        </div>
+    </div>
+</div>
