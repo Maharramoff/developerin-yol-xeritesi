@@ -12,7 +12,7 @@ baseurl: "/"
 exclude: ["readme.md", "CNAME", "LICENSE", ".gitignore"]
 
 permalink: pretty
-timezone: Asia/Abu_Dhabi
+timezone: Asia/Baku
 categories: [roadmaps, sponsors]
 
 plugins:
@@ -36,3 +36,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
