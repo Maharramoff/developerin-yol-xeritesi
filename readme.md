@@ -1,1 +1,1 @@
-## Project Author [roadmap.sh](https://roadmap.sh)
+## Author and owner of the project [Kamran Ahmad](https://github.com/kamranahmedse)
