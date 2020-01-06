@@ -7,17 +7,19 @@
 
 ![Web Developer Roadmap Introduction](./img/intro.png)
 
-## Frontend
+## Frontend yolu
 [![](https://img.shields.io/badge/-%20PDF%20Yüklə-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://maharramoff.github.io/yol/static/frontend.pdf)
 
 ![Frontend Roadmap](./img/frontend.png?year-2020-1)
 
 
-## Back-end Roadmap 
+## Backend yolu 
 
->Hazırlanır...
+[![](https://img.shields.io/badge/-%20PDF%20Yüklə-0a0a0a.svg?style=flat&colorA=0a0a0a)](https://maharramoff.github.io/yol/static/backend.pdf)
 
-## DevOps Roadmap
+![Backend Roadmap](./img/backend.png?year-2020-1)
+
+## DevOps yolu
 
 >Hazırlanır...
 
